@@ -1,0 +1,112 @@
+/* body{
+    background-color:goldenrod;
+
+}
+nav li{
+    display:inline;
+
+}
+a:hover{
+    background-color: darkblue;
+}
+a{
+    transition: background 2s ease-in;
+    animation: SAIF 3s;
+}
+a:hover{
+    background-color: tomato;
+}
+#container{
+    width:70%;
+    padding:3PX;
+    margin:auto;
+    background-color: grey;
+}
+.form-group{
+       display:flex;
+     padding:5px;
+}
+.form-group input{
+    flex: 1;
+    
+} */
+
+body{
+    background-color:cyan;
+
+}
+.container{
+    width: 80%;
+    background-color: white;
+    margin: AUTO;
+    padding: 5px;
+    display: flex;
+}
+.main{
+    flex:1;
+    order: 2;
+}
+.Sidebar1{
+    flex: 1;
+    order:1 ;
+}
+.Sidebar2{
+    flex:1;
+    order: 3;
+}
+/*body{
+    background-color:cyan;*/
+
+}
+
+
+
+.container{
+    width: 80%;
+    background-color: white;
+    margin: auto;
+    padding: 5px;
+    display: flex;
+}
+.main{
+    flex:1;
+    order: 2;
+    margin: auto;
+}
+.Sidebar1{
+    flex: 1;
+    order:1 ;
+    margin: auto;
+    padding-bottom: 100px;
+}
+.Sidebar2{
+    flex:1;
+    order: 3;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+/* example 2 */
+
+.all{
+    display: flex;
+    margin:bottom 20px;
+    width: 85%;
+}
+.all.box{
+    background-color: whitesmoke;
+    margin:35px;
+    padding: 15px;
+}
+.box:nth-child(1){
+    background-color: darksalmon;
+    color: tomato;
+}
+.box:nth-child(2){
+    background-color: darkslategrey;
+    color: blueviolet;
+}
+.box:nth-child(3){
+    background-color: dodgerblue;
+    color: gold;
+}
